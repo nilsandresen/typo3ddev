@@ -12,9 +12,16 @@
 		{
 			"type": "path",
 			"url": "./packages"
-		}
+		},
+		{
+            "type": "vcs",
+            "url":  "git@github.com:Boyens-Online/bo_schwarz_reiseangebote.git"
+        }
 	],
+	"minimum-stability": "dev",
+	"prefer-stable": true,
 	"require": {
+		"boyens-online/bo_schwarz_reiseangebote": "dev-xml-parser",
 		"friendsoftypo3/extension-builder": "dev-v10-compatibility",
 		"helhum/typo3-console": "^6.0.0",
 		"typo3/cms-about": "^10.4",

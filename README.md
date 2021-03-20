@@ -11,8 +11,8 @@ Get going quickly with TYPO3 CMS.
 
 - `composer create-project typo3/cms-base-distribution project-name ^10`
 - `cd project-name`
-- `"repositories": [ { "type": "path", "url": "./packages" } ],`
-- `ddev exec "composer req friendsoftypo3/extension-builder:dev-v10-compatibility"`
+- `add this to composer.json for the extensionsbuilder "repositories": [ { "type": "path", "url": "./packages" } ],`
+- `install extensionbuilder with ddev exec "composer req friendsoftypo3/extension-builder:dev-v10-compatibility"`
 
 **Setup:**
 
